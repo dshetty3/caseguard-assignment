@@ -59,8 +59,10 @@ password - Binghamton!170298
 
 ## Lighthouse score
 
+ Local performance test using Google Lighthouse - Desktop
 <img src="/wp-content/themes/caseguard/assets/images/LH - Desktop.png" alt="Light house Desktop" width="900"/>
 
+ Local performance test using Google Lighthouse - Mobile
 <img src="/wp-content/themes/caseguard/assets/images/LH - Mobile.png" alt="Light house Mobile" width="900"/>
 
 
