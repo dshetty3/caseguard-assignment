@@ -1,7 +1,7 @@
 # Frontend Web Developer - Technical Assignment
 
 # WordPress Project
-This assesment is only for CaseGuard
+This assesment is only for CaseGuard <br>
 <img src="/wp-content/themes/caseguard/assets/images/CaseGuardLogo.png" alt="CaseGuardLogo" width="300"/>
 
 ## Recommended IDE Setup
@@ -35,7 +35,7 @@ To run this project locally, follow these steps:
    ```bash
     cd wordpress
 
-3. Create necessary files in the WorPress folder under themes folder: I created the theme named casguard and 
+3. Create necessary files in the WorPress folder under themes folder: I created the theme named caseguard and 
    created necessary files.
 
 4. Login to WordPress and check whether the changes are impacting and click on View Site else type localhost in browser 
