@@ -1,12 +1,12 @@
 # Frontend Web Developer - Technical Assignment
 
 # WordPress Project
-This assesment is only for CaseGuard <br>
+This assesment is only for
 <img src="/wp-content/themes/caseguard/assets/images/CaseGuardLogo.png" alt="CaseGuardLogo" width="300"/>
 
 ## Recommended IDE Setup
 
-[VSCode](https://code.visualstudio.com/).
+[VSCode](https://code.visualstudio.com/)<br>
 [WordPress](https://wordpress.com/)
 
 ## Table of Contents
@@ -17,10 +17,10 @@ This assesment is only for CaseGuard <br>
 
 
 ## Demo
-<img src="./Budgetwise.gif" alt="Demo GIF" width="900"/>
+<img src="/wp-content/themes/caseguard/assets/image/caseguard-demo.gif" alt="Demo GIF" width="900"/>
 
 ## Features
-- **WordPress and Figma:** Using Figma Prototype (https://www.figma.com/proto/h73YSbiBL766UVZLoDyGbd/Technical-Test---Frontend-Web-Developer?node-id=0-429&starting-point-node-id=0%3A429), built a custome WordPress webpage - without Plugins
+- **WordPress and Figma:** Using Figma Prototype (https://www.figma.com/proto/h73YSbiBL766UVZLoDyGbd/Technical-Test---Frontend-Web-Developer?node-id=0-429&starting-point-node-id=0%3A429), built a Custom WordPress webpage - without Plugins
 
 
 ## Getting Started
@@ -31,7 +31,7 @@ To run this project locally, follow these steps:
    ```bash
       https://www.hostinger.com/tutorials/install-wordpress-locally
    
-2. Go the the directory in your installed wordpress in VSCode i.e in this case /Applications/MAMP/htdocs/wordpress
+2. Go the the directory in your installed wordpress in VSCode i.e in this case Desktop ▹ Caseguard Assignment ▹ caseguard-assignment
    ```bash
     cd wordpress
 
@@ -49,14 +49,31 @@ To run this project locally, follow these steps:
 - CSS3
 - JavaScript
 
+## Incomplete Taks - yet to be done 
+   Filtering and displaying in the carousel is yet to be implemented.
 
-##References
+## Credentials
+
+username - caseguard
+password - Binghamton!170298
+
+
+## Lighthouse score
+
+<img src="/wp-content/themes/caseguard/assets/images/LH - Desktop.png" alt="Light house Desktop" width="900"/>
+
+<img src="/wp-content/themes/caseguard/assets/images/LH - Mobile.png" alt="Light house Mobile" width="900"/>
+
+
+## References
 
 - Create Custom Wordpress Theme: https://www.youtube.com/watch?v=-h7gOJbIpmo&t=367s&ab_channel=freeCodeCamp.org
 - Animation Style: https://codepen.io/achyut08/pen/WNdgOeb
 - Gradient changes: https://www.w3schools.com/css/css3_gradients.asp
 - Checkbox with filter: https://www.youtube.com/watch?v=IBDKc1T5KQ8&ab_channel=CodingLab
 - Carousel: https://www.youtube.com/watch?v=JX5qDzWDF4U&ab_channel=CodeInstinct
+
+
 
 
 

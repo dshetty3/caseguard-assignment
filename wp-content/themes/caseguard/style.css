@@ -712,6 +712,7 @@ padding: 15px 30px 15px 30px;
     display: flex;
 }
 
+
 //media
 @media only screen and (max-width: 600px) {
     html, body{

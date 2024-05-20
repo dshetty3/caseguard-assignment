@@ -143,38 +143,56 @@ document.addEventListener("DOMContentLoaded", function() {
     exampleCarousel.setControls();
     exampleCarousel.useControls();
     exampleCarousel.updateGallery(); 
-    //exampleCarousel.startAutoSlide();    
+    exampleCarousel.startAutoSlide();    
     
 });
 
-
-//dropdown and checkboss
+//dropdown and checkbox
 document.addEventListener("DOMContentLoaded", () => {
-const selectBtn = document.querySelector(".select-btn"),
-      items = document.querySelectorAll(".item");
+    const selectBtn = document.querySelector(".select-btn"),
+          items = document.querySelectorAll(".item"),
+          galleryItems = document.querySelectorAll(".gallery-item");
 
-      //console.log(selectBtn, items)
-
-      selectBtn.addEventListener("click", () => {
+    selectBtn.addEventListener("click", () => {
         selectBtn.classList.toggle("open");
-      });
+    });
 
-      items.forEach(item => {
+    items.forEach(item => {
         item.addEventListener("click", () => {
-                item.classList.toggle("checked");
+            item.classList.toggle("checked");
             let checked = document.querySelectorAll(".checked"),
                 btnText = document.querySelector(".btn-text");
-                //console.log("Checked",checked.length);
-                const selectedItems = Array.from(items).filter(item => item.classList.contains('checked'));
 
-                if(selectedItems.length > 0){
-                    const names = selectedItems.map(item => item.getAttribute('data-name'));
-                    btnText.innerText = `${names.join(', ')}`;
-                }else{
-                         btnText.innerText= "Select What to Filter"
-                }
-        })
-      })
+            const selectedItems = Array.from(items).filter(item => item.classList.contains('checked'));
+
+            if (selectedItems.length > 0) {
+                const names = selectedItems.map(item => item.getAttribute('data-name'));
+                btnText.innerText = `${names.join(', ')}`;
+            } else {
+                btnText.innerText = "Select What to Filter";
+            }
+
+            //filterGallery();
+        });
+    });
+
+    // function filterGallery() {
+    //     const selectedItems = document.querySelectorAll('.item.checked');
+    //     const selectedColors = Array.from(selectedItems).map(item => item.getAttribute('data-name'));
+    //     let visibleNames = [];
+    
+    //     galleryItems.forEach(image => {
+    //         const imageColor = image.getAttribute('data-name').split(' ')[0]; 
+    //         if (selectedColors.includes(imageColor)) {
+    //             image.classList.remove('hidden');
+    //             visibleNames.push(image.getAttribute('data-name'));
+    //         } else {
+    //             image.classList.add('hidden');
+    //         }
+    //     });
+    
+    //     document.getElementById('image-name').innerText = visibleNames.join(', '); // Update visible names
+    // }
 });
 
 
