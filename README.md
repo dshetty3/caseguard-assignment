@@ -17,7 +17,7 @@ This assesment is only for
 
 
 ## Demo
-<img src="/wp-content/themes/caseguard/assets/image/caseguard-demo.gif" alt="Demo GIF" width="900"/>
+<img src="./caseguard-demo.gif" alt="Demo GIF" width="900"/>
 
 ## Features
 - **WordPress and Figma:** Using Figma Prototype (https://www.figma.com/proto/h73YSbiBL766UVZLoDyGbd/Technical-Test---Frontend-Web-Developer?node-id=0-429&starting-point-node-id=0%3A429), built a Custom WordPress webpage - without Plugins
@@ -33,10 +33,9 @@ To run this project locally, follow these steps:
    
 2. Go the the directory in your installed wordpress in VSCode i.e in this case Desktop ▹ Caseguard Assignment ▹ caseguard-assignment
    ```bash
-    cd wordpress
+    cd caseguard-assignment
 
-3. Create necessary files in the WorPress folder under themes folder: I created the theme named caseguard and 
-   created necessary files.
+3. Create necessary files in the WorPress folder under themes folder: I created the   theme named caseguard and created necessary files.
 
 4. Login to WordPress and check whether the changes are impacting and click on View Site else type localhost in browser 
    
