@@ -17,7 +17,7 @@ This assesment is only for
 
 
 ## Demo
-<img src="./caseguard-demo.gif" alt="Demo GIF" width="900"/>
+<img src="/wp-content/themes/caseguard/assets/images/caseguard-demo.gif" alt="Demo GIF" width="900"/>
 
 ## Features
 - **WordPress and Figma:** Using Figma Prototype (https://www.figma.com/proto/h73YSbiBL766UVZLoDyGbd/Technical-Test---Frontend-Web-Developer?node-id=0-429&starting-point-node-id=0%3A429), built a Custom WordPress webpage - without Plugins
