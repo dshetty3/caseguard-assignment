@@ -53,7 +53,7 @@ To run this project locally, follow these steps:
 
 ## Credentials
 
-username - caseguard
+username - caseguard <br>
 password - Binghamton!170298
 
 
